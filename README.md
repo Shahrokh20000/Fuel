@@ -104,9 +104,9 @@ screen -S fuel
 نکته : اگر میخواید با نود Ritual ران کنید و تداخل پورت نداشته باشید اون Port رو بکنید  4050 
 ```
 fuel-core run \
---service-name {ANY_SERVICE_NAME} \
---keypair {P2P_SECRET} \
---relayer {ETH_RPC_ENDPOINT} \
+--service-name OXSHAH \
+--keypair 485a1b3d806aeb2a2492d42d06a3aea07e9b2efdadc098e72ac943a4613ef029 \
+--relayer https://eth-sepolia.g.alchemy.com/v2/t7R18EV4rm-bm8BTyKWdJ_yq1WSllus_ \
 --ip 0.0.0.0 --port 4000 --peering-port 30333 \
 --db-path ~/.testnet \
 --snapshot $Home/root/metadata-fuel \
